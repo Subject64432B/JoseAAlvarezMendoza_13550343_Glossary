@@ -1,0 +1,106 @@
+html{
+	font-family: 'Trebuchet MS'
+}
+
+body, html{
+	height: 100%;
+}
+header, body, footer {
+	margin: 0px 0px 0px 0px;
+}
+h1 {
+	padding-top: 80px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 100px;
+	/* text-shadow: 20px 20px 10px #000; */
+	 text-shadow: 3px 3px 5px #468966,
+               	  6px 6px 5px #105B63,    /*CSS3 Segun una pagina que encontre por ahi*/
+               	  9px 9px 5px #000000;
+}
+article , nav {
+	display: inline-block;
+	margin-bottom: 85px;
+}
+nav{
+	margin-top:30px;
+	float: absolute;
+	padding-left: 120px; 
+}
+
+footer p,footer a{
+	text-decoration: none;
+	color: #000;
+	margin: 0;
+	display: inline-block;
+	padding: 10px 50px 10px 20px;
+}
+footer{
+	padding-top: 30px;
+	text-align: center;
+	height: 80px;
+}
+.clear a{
+	text-decoration: none;
+	color:white;
+}
+.rect{
+	position:relative;
+	height: auto;
+	border: 1px solid #000;
+	background-color: #ffffff;
+}
+.Pacifico{
+	font-family: 'pacifico';
+}
+.paralaxTop{
+	/* background-image: url("http://onepagelove-wpengine.netdna-ssl.com/wp-content/uploads/2014/03/opl-parallax-universe.jpg"); */
+	/* background-image: url("http://i1-news.softpedia-static.com/images/news2/introducing-the-default-wallpapers-of-the-gnome-3-18-desktop-environment-485512-6.jpg"); */
+	background-image: url('../public/img/WDF.jpg');
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1px 1px 1px 1px;
+}
+
+.menu{
+	justify-content: space-around;
+}
+/* .menuAct{  ESTO ES PARA CUANDO SE ENCUENTRA EN LA PAGINA ACTUAL
+	padding: 15px 20px 15px 20px ;
+    margin-left: auto;
+    list-style-type: none;
+    background-color :#ffffff;
+    color:#33b5e5
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+} */
+
+.menu a {
+	text-transform: uppercase;
+	padding: 50px 0px 0px 0px ;
+	text-align: center;
+    margin:10px;
+    float: left;
+    height: 75px;
+    width: 125px;
+    text-decoration: none;
+    background-color :#1B92A1;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu a:hover{
+	background-color: #B8AE9C
+}
+.menu li{
+	padding: 50px 50px 10px 0px; 
+	list-style-type: none;
+}
+.menu p{
+	padding: 10px 180px 10px 50px;
+	text-align: justify;
+}
+.FooterColor{
+	background-color: #468966;
+}
